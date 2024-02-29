@@ -1,0 +1,80 @@
+header{
+  width: 100vw;
+  height: 100px;
+  
+}
+
+body{
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+footer{
+  width: 100vw;
+  height: 80px;
+}
+
+.main-wrapper{
+  /* background-color: lightblue; */
+  height: calc(100vh - 180px);
+}
+
+.grid-container{
+  background-color: black;
+  width: 640px;
+  aspect-ratio: 1;
+}
+
+.square{
+  width: 60px;
+  aspect-ratio: 1;
+  background-color: #c9fdd7;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-grow: 0;
+  cursor: pointer;
+
+}
+
+.clicked{
+  background-color: #6892d5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************
+          COLOR
+***************************/
+
+.body-color { 
+	background: #e3ecea; 
+}
+
+.header-color { 
+	background: #79d1c3; 
+}
+	
+.cube-color { 
+	background: #c9fdd7; 
+}
+
+.cube-selected-color { 
+	background: #6892d5; 
+}
+/***************************
+          COLOR
+***************************/
