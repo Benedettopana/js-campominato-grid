@@ -18,6 +18,11 @@ footer{
   height: 80px;
 }
 
+footer .made{
+  line-height: 56px;
+  padding-top: 8px;
+}
+
 img{
   width: 70px;
   /* aspect-ratio: 1; */
