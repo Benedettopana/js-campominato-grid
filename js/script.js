@@ -1,17 +1,19 @@
 const gridContainer = document.querySelector('.grid-container');
 // Selezione difficoltà
 const selezione = document.querySelector('.difficulty');
-const difficulty = selezione.value;
+console.log(selezione.value);
+const difficulty = parseInt(selezione.value);
 // btn start
+
 const btnPlay = document.querySelector('.btn-play');
 
 // RESET
-reset();
 
 
-btnPlay.addEventListener('click', startPlay(difficulty));
 
-function startPlay(difficulty){
+btnPlay.addEventListener('click', startPlay);
+
+function startPlay(){
   
   reset();
   let nSquare;
