@@ -21,12 +21,12 @@ footer{
 
 .grid-container{
   background-color: black;
-  width: 640px;
+  width: 700px;
   aspect-ratio: 1;
 }
 
 .square{
-  width: 60px;
+  width: 10%;
   aspect-ratio: 1;
   background-color: #c9fdd7;
   border: 2px solid white;
@@ -37,6 +37,13 @@ footer{
   flex-grow: 0;
   cursor: pointer;
 
+}
+
+.dif-medium{
+  width: calc(100% / 9) !important;
+}
+.dif-hard{
+  width: calc(100% / 7) !important;
 }
 
 .clicked{
