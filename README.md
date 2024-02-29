@@ -18,4 +18,8 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 1. Ci creiamo la struttura.
 1. Creiamo un semplice quadrato vuoto che conterrà i nostri quadrati.
 1. Faccio una funzione che tramite un ciclo mi crea i quadrati in base a quelli che prendere dall'utente
-1.  
+1.  Creo la funzione RESET.
+1. Creo la funzione getScquare per crearmi in modo iterativo i quadrati.
+1. Creo la funzione che mi gestisce il click ed il cambio colore se premuto.
+1. Mi gestisco il select nel header per scegliere quanti quadrati.
+1. Mi creo la funzione di creazione dei miei quadrati che capirà tramite la scelta degli utenti quanti quadrati dovrà stampare.
