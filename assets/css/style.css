@@ -4,6 +4,10 @@ header{
   
 }
 
+header .title{
+  line-height: 65px;
+}
+
 body{
   overflow-x: hidden;
   height: 100vh;
@@ -12,6 +16,11 @@ body{
 footer{
   width: 100vw;
   height: 80px;
+}
+
+img{
+  width: 70px;
+  /* aspect-ratio: 1; */
 }
 
 .main-wrapper{
